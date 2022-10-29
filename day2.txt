@@ -1,0 +1,88 @@
+//https://www.interviewbit.com/puzzles/#problems
+
+=============================================================================================================
+Monkeys and Doors
+
+
+
+There are 100 doors, all closed. 
+
+In a nearby cage are 100 monkeys.
+
+The first monkey is let out and runs along the doors opening every one. 
+
+The second monkey is then let out and runs along the doors closing the 2nd, 4th, 6th,…  - all the even-numbered doors. 
+
+The third monkey is let out. He attends only to the 3rd, 6th, 9th,… doors (every third door, in other words), closing any that is open and opening any that is closed, and so on. 
+
+After all 100 monkeys have done their work in this way, what state are the doors in after the last pass?
+
+Answer with the number of open doors.
+
+
+Ans :10,all perfect squares doors are open.
+
+=============================================================================================================
+
+Ten Black and White Socks
+
+
+There are 10 black socks and 10 white socks in a drawer.Now you have to go out wearing your shoes.
+
+So how many maximum number of times you need to remove the sock from drawer so that you can go out?
+
+You can remove only 1 sock at a time. 
+
+You can’t look at the drawer while removing the socks.
+
+Obviously, you can’t go outside wearing different socks!
+
+
+ans:3,maximum
+
+
+========================================================================================
+
+Cross the Bridge
+
+Asked In:
+Google
+Microsoft
+Four people are on this side of the bridge. Everyone has to get across. 
+
+Problem is that it’s dark and so you can’t cross the bridge without a flashlight and they only have one flashlight. 
+
+Plus the bridge is only big enough for two people to cross at once. 
+
+The four people walk at different speeds:
+
+one fella is so fast it only takes him 1 minute to cross the bridge,
+another 2 minutes,
+a third 5 minutes,
+the last it takes 10 minutes to cross the bridge.
+When two people cross the bridge together (sharing the flashlight), they both walk at the slower person’s pace. What is the minimum time required for all 4 to cross the bridge.
+
+Respond with a number which represents the number of minutes.
+
+
+ans: 2+1+10(with 5 min guy)+2+2=17
+
+========================================================================================
+
+Wizards and Drawves
+
+There is a village of wizards and a village of N dwarves.
+
+Once a year, the wizards go over to the village of dwarves and line all the dwarves up in increasing height order, such that each dwarf can only see the dwarves shorter than himself.
+
+The wizards have an infinite supply of white and black hats. They place either a white or black hat on the head of each dwarf. Then, starting with the tallest dwarf (in the back of the line), they ask each what color hat he is wearing. If the dwarf answers incorrectly, the wizards kill him (the other dwarves can hear his answer, but can’t tell if he was killed or not). What is the most number of dwarves that will be killed using this optimal strategy?
+
+Do note that the dwarves already know that the wizards will do as stated above. So, they can get together and devise an optimal strategy to minimize the people that get killed.
+
+Case 1 : Answer is a function of N. Output it with N with multipliers or divisor numbers following N. For example, N * 2, N / 2, N * 3 / 4.
+Case 2 : Answer is a integer. Just put the number without any decimal places if its an integer. If the answer is Infinity, output Infinity.
+Case 3 : Floating point number. Round it off to 2 decimal places and output it as I.xx where I is the integer part of the answer, and xx are 2 decimal digits after rounding off.
+
+
+
+ans: 1,because each of the dwarfs knows their sum according to the number of dwarfs in front of them.
